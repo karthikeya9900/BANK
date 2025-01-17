@@ -2,7 +2,7 @@
 
 ## **Description**
 
-building a **banking application** that will have a works same as a banking application which contains withdrawls,deposits,user logins,user login creation,and other functions. And stores data permanently and updates data updates user data.
+building a **banking application** that will have a works same as a banking application which contains withdrawls,deposits,user logins,user login creation,and other functions. And stores data permanently and updates data.
 
 ## **Features**
 
@@ -43,11 +43,11 @@ building a **banking application** that will have a works same as a banking appl
 2. **Reading Data From a File and Re-Writting after Updating**
 
 - at programm start we are reading the data from the data file after updating
-  exeguting all the operations update re writes user data in file
+  executing all the operations update re writes user data in file
 
 3. **Error Handling**
 
-- handling the errors if there is occured while exegution
+- handling the errors if there is occured while execution
 
 4. **Maintaninig the Unique UserNames for User Logins**
 
