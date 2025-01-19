@@ -1,0 +1,4 @@
+{
+  "admin": { "username": "admin@axis", "password": "admin@axis" },
+  "user1": { "username": "user1@123", "password": "user1@1234" }
+}
