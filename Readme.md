@@ -89,6 +89,18 @@ enter your type : savings / current
 creates a new user account with given details with unique account numbers
 ```
 
+```
+        ***  USER LOGIN DETAILS CREATION  ***
+enter your account number : account number
+enter userName : username
+enter password : password
+confirm password : password
+
+if the userName already exists
+it will not create and raises error that already exists
+and asks again to enter username and password
+```
+
 ### 2. User Authentication
 
 ```
