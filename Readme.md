@@ -16,10 +16,9 @@ This project involves building a banking application that functions like a real-
 
 - Secure login system that protects user credentials and ensures data privacy.
 
-### 3. **Account Management**
+### 3. **Account Details**
 
-- View basic account details like balance and transaction history.
-- Manage multiple accounts under a single user profile.
+- View basic account details like balance
 
 ### 4. **Fund Transfers**
 
@@ -72,3 +71,92 @@ This project involves building a banking application that functions like a real-
   - Arrays for managing lists of users, accounts, and transactions.
 
 ---
+
+# Preview
+
+### 1. User creation
+
+```
+        *** NEW USER CREATION ***
+
+enter your full name : users Full Name
+enter your date of birth : users Date of Birth
+enter your adderess : users address
+enter your contact number : users mobile number
+enter your PAN number : users PAN number
+enter your type : savings / current
+
+creates a new user account with given details with unique account numbers
+```
+
+### 2. User Authentication
+
+```
+        ***  USER LOGIN  ***
+
+enter username : username
+enter password : password
+
+it will checks whether the username and password
+are valid or not if not returns invalid username or password
+if valid , changes to that particular user
+```
+
+### 3. Account Details
+
+```
+      ***  USER ACCOUNT DETAILS  ***
+
+FULL NAME : full name
+DOB : 00/00/0000
+ADDRESS : user Address
+EMAIL:abcde123@gmail.com
+CONTACT : 1234567890
+PAN number : ABCDE1234F
+Account Type : savings / current
+Account Number : 192310100012345
+Balance : 00000.00
+
+displays user account details
+```
+
+### 4. Fund Transfers
+
+```
+        ***  Money Transfer  ***
+
+reciever name : reciever name
+reciever account number : account number
+enter money you want to send : money
+are you sure details correct ? : yes or no
+
+// if not correct it asks again to enter
+if correct it continues its process
+
+returns message that money sent succesful
+```
+
+### 5. Withdraw Money
+
+```
+        ***  Withdraw Money  ***
+
+currnet Balance : displays current balance
+enter amount to withdraw : amount
+are you sure want to withdraw ? : yes or no
+
+it checks whether the given amount is valid or not
+if your balance is less than entered amount it throws error
+oherwise returns transaction succesfull message
+```
+
+```
+        ***  Deposit Money  ***
+
+current balance : displays current balance
+enter amount to deposit : amount
+are you sure ? : yes or no
+
+if yes deposits money otherwise cancels transaction
+return transaction succesfull message
+```
